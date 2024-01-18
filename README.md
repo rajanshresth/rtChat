@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# rtChat
+The Real-Time Chat App is a modern and feature-rich communication platform designed for seamless and instant collaboration. With a focus on performance, scalability, and security, this application enables users to engage in private messaging, group chats, and real-time video communication. 
 
-## Getting Started
+## Feature 
+1. Real-Time Communication:
+   1. Instant Messaging:
+       Users can send and receive text messages in real-time.
+   2. Private Messaging:
+       Secure one-on-one messaging between users.
+   3. Group Chats:
+        Users can create and participate in group chats for collaborative discussions.
+2. Multimedia Sharing:
+    1. File Sharing:
+        Users can share files (images, documents, etc.) with others.
+    2. Video Chat:
+        Real-time video chat functionality for face-to-face communication.
+3. User Management:
+    1. User Authentication:
+        Secure user authentication and login system.
+    2. User Profiles:
+        Users can create and customize their profiles.
+4. Notifications:
+    1. Push Notifications:
+        Real-time push notifications for new messages and activities.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Real-Time Chat App Development To-Do List
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [x] **Project Setup:**
+  - [x] Initialize Next.js project with TypeScript.
+  - [x] Set up project structure and basic files.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [ ] **User Authentication and Profiles:**
+  - [ ] Implement user authentication using NetAuth.js.
+  - [ ] Create user profiles with customizable options.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [ ] **Real-Time Messaging:**
+  - [ ] Integrate pusher.com for real-time messaging.
 
-## Learn More
+- [ ] **Private Messaging and Notifications:**
+  - [ ] Implement private messaging functionality.
+  - [ ] Add real-time push notifications.
 
-To learn more about Next.js, take a look at the following resources:
+- [ ] **Data Persistence:**
+  - [ ] Set up Prisma ORM for data persistence.
+  - [ ] Create a user model in the database.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [ ] **Video Chat Integration:**
+  - [ ] Implement video chat using Agora.io.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [ ] **Group Chats and File Sharing:**
+  - [ ] Add group chat functionality.
+  - [ ] Implement file sharing with s Bucket.
 
-## Deploy on Vercel
+- [ ] **UI/UX Enhancement:**
+  - [ ] Styling and responsiveness using Tailwind CSS.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [ ] **Push Notifications for Messages:**
+  - [ ] Implement push notifications for new messages.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [ ] **Video Call SDK Integration:**
+  - [ ] Integrate the chosen video call SDK.
+
+- [ ] **Testing and Quality Assurance:**
+  - [ ] Implement testing with Jest and Testing Library.
+  - [ ] Create comprehensive documentation.
+
+- [ ] **Refinement and Final Testing:**
+  - [ ] Refine the entire application.
+  - [ ] Conduct thorough testing and bug finding.
+
+- [ ] **Deployment:**
+  - [ ] Prepare for deployment.
+  - [ ] Deploy the application.
+
+- [ ] **User Feedback and Iteration:**
+  - [ ] Gather user feedback.
+  - [ ] Iterate and enhance based on feedback.
+
