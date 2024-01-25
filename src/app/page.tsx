@@ -1,16 +1,19 @@
-import { buttonVariants } from "@/components/ui/button";
+import AuthForm from "./auth-form";
 
 export default function Home() {
   return (
-    <main>
-      <h1 className="text-center font-bold text-3xl text-purple-500">Rajan</h1>
-      <button
-        className={buttonVariants({
-          className: "bg-purple-500 text-white",
-        })}
-      >
-        Click me!
-      </button>
-    </main>
+    <div className="row">
+      <div className="col-6">
+        <h1 className="header">Supabase Auth + Storage</h1>
+        <p>
+          Experience our Auth and Storage through a simple profile management
+          example. Create a user profile and upload an avatar image. Fast,
+          simple, secure.
+        </p>
+      </div>
+      <div className="col-6 auth-widget">
+        <AuthForm />
+      </div>
+    </div>
   );
 }
